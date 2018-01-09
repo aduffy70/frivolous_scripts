@@ -1,0 +1,9 @@
+{
+  "name": "language-fasta",
+  "version": "0.0.1",
+  "description": "Syntax highlighting for fasta files",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  }
+}

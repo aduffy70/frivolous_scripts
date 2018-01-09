@@ -1,0 +1,30 @@
+'scopeName': 'source.fasta'  
+'name': 'FASTA'  
+'fileTypes': ['fasta', 'fa']
+
+'patterns': [  
+	{
+	'match': 'C|c'
+	'name': 'constant.numeric.r'
+	},
+	{
+		'match': 'A|a'
+		'name': 'entity.name.function.r'
+	},
+	{
+		'match': 'G|g'
+		'name': 'comment.line.pragma-mark.r'
+	},
+	{
+		'match': 'T|t|U|u'
+		'name': 'keyword.operator.assignment.r'
+	},
+	{
+	'match': 'N|n|R|r|K|k|S|s|W|w|M|m|Y|y|D|d|V|v|B|b|H|h'
+	'name': 'string.quoted.single.r'
+	}
+	{
+		'match': '^>.*$'
+		'name': 'my.header.text'
+	}
+]
